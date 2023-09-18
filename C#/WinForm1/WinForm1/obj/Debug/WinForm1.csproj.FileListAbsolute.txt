@@ -1,0 +1,13 @@
+C:\Users\ADMIN\Desktop\C#\WinForm1\WinForm1\bin\Debug\WinForm1.exe.config
+C:\Users\ADMIN\Desktop\C#\WinForm1\WinForm1\bin\Debug\WinForm1.exe
+C:\Users\ADMIN\Desktop\C#\WinForm1\WinForm1\bin\Debug\WinForm1.pdb
+C:\Users\ADMIN\Desktop\C#\WinForm1\WinForm1\obj\Debug\WinForm1.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Desktop\C#\WinForm1\WinForm1\obj\Debug\WinForm1.Properties.Resources.resources
+C:\Users\ADMIN\Desktop\C#\WinForm1\WinForm1\obj\Debug\WinForm1.csproj.GenerateResource.cache
+C:\Users\ADMIN\Desktop\C#\WinForm1\WinForm1\obj\Debug\WinForm1.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\C#\WinForm1\WinForm1\obj\Debug\WinForm1.exe
+C:\Users\ADMIN\Desktop\C#\WinForm1\WinForm1\obj\Debug\WinForm1.pdb
+C:\Users\ADMIN\Desktop\C#\winform1\WinForm1\bin\Debug\Database1.mdf
+C:\Users\ADMIN\Desktop\C#\winform1\WinForm1\bin\Debug\Database1_log.ldf
+C:\Users\ADMIN\Desktop\C#\winform1\WinForm1\obj\Debug\WinForm1.Login.resources
+C:\Users\ADMIN\Desktop\C#\winform1\WinForm1\obj\Debug\WinForm1.Main.resources
