@@ -16,41 +16,37 @@ namespace WinForm1
         {
             InitializeComponent();
         }
-        String username = "leminhphuc";
-        String password = "123456";
+        Modify modify = new Modify();
          public void button1_Click(object sender, EventArgs e)
         {
-            //String txtusername = this.txtusername.Text;
-            //String txtpassword = this.txtpassword.Text;
-            //if (txtusername == "")
-            //{
-            //    MessageBox.Show("Enter your username!");
-            //}
-            //else if (txtpassword == "")
-            //{
-            //    MessageBox.Show("Enter your password");
-            //}
-            //else
-            //{
-            //    if (txtusername != username || txtpassword != password)
-            //    {
-            //        MessageBox.Show("Username or password is wrong");
-            //    }
-            //    else
-            //    {
-                    
-            //        Main form2 = new Main(txtusername);
-            //        form2.Show();
-            //        this.Hide();
-            //    }
-            //}
+            string tentk = txtusername.Text;
+            string mk = txtpassword.Text;
+            if (tentk.Trim() == "")
+            {
+                MessageBox.Show("Vui lòng nhập tài khoản!");
+            }
+            else if (mk.Trim() == "")
+            {
+                MessageBox.Show("Vui lòng nhập mật khẩu!");
+            }
+            else
+            {
+                string query = "select * from Taikhoan where tentaikhoan='" + tentk + "' and matkhau='"+mk+"'";
+                if (modify.taiKhoan(query).Count>0)
+                {
+                    Main main = new Main(tentk);
+                    Login login = new Login();
+                    main.Show();
+                    login.Close();
+                }
+                else
+                {
+                    MessageBox.Show("Tên tài khoản hoặc mật khẩu sai!");
+                }
+            }
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
-
+       
       
     }
 }
